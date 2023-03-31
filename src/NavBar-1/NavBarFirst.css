@@ -6,6 +6,7 @@
   font-size: 15px;
   position: relative;
   margin: -15px;
+  box-shadow: 1px 1px 30px -10px;
 }
 .phone-number-mail{
   display: flex;
@@ -16,6 +17,7 @@
 }
 .phone-number-mail p {
   margin-left: 20px; 
+  padding-left: 30px;
 }
 .phone-number-mail svg{
   font-size: 15px;
