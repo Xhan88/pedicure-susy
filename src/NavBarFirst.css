@@ -1,0 +1,37 @@
+.nav-bar-first {
+  background-color: rgb(231, 231, 231);
+  color: rgb(97, 100, 102);
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  position: relative;
+  margin: -15px;
+}
+.phone-number-mail{
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  padding-right: 10px;
+  padding-left: 80px;
+}
+.phone-number-mail p {
+  margin-left: 20px; 
+}
+.phone-number-mail svg{
+  font-size: 15px;
+}
+.css-i4bv87-MuiSvgIcon-root{
+  font-size: 15px;
+}
+.social-networks{
+  padding-top: 20px;
+  padding-right: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+.social-networks svg {
+  padding-right: 30px;
+  cursor: pointer;
+  padding-top: 10px;
+  font-size: 15px;
+}
