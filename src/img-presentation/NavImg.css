@@ -3,3 +3,42 @@
   margin-top: 10px;
   margin-left: -8px;
 }
+.container{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.presentation-text{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: azure;
+}
+.center{
+  font-size: 3rem;
+  color: rgb(201, 215, 215);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center p {
+  font-size: 20px;
+  margin-top: -80px;
+}
+.btn-contact{
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  color: azure;
+  background-color: rgb(111, 13, 186);
+  cursor: pointer;
+}
+.btn-contact:hover {
+  box-shadow: 1px 1px 15px 1px rgb(111, 13, 186);
+  background-color: azure;
+  color: rgb(111, 13, 186);
+  transition: all 0.9s;
+
+}
