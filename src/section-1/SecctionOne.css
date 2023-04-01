@@ -1,0 +1,12 @@
+.img-seccion{
+  border-radius: 150px;
+}
+.grid-container{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.grid-container p {
+  padding-top: 3rem;
+  margin: 80px;
+  line-height: 40px;
+}
