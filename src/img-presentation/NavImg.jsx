@@ -8,7 +8,7 @@ const NavImg = () => {
       <div className='center'>
         <h1>Pedicure Clinico</h1>
         <p>Atendidos por su propietaria y experta
-           en cuidado para los pies Susy Sanchez</p>
+           en cuidado para los pies <spam className='susy-name'>Susy Sanchez</spam></p>
            <button className='btn-contact'>
             CONTACTAME
            </button>
