@@ -1,12 +1,38 @@
 .img-seccion{
   border-radius: 150px;
+  margin: 20px;
+  margin-top: 30px;
+  
 }
 .grid-container{
   display: flex;
   flex-direction: row-reverse;
 }
 .grid-container p {
-  padding-top: 3rem;
+  padding-top: -20px;
   margin: 80px;
   line-height: 40px;
+  color: rgb(124, 120, 120);
+  font-size: 20px;
+}
+.spams-color{
+  color:rgb(226, 73, 73)
+}
+.button-more-imformation{
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px;
+  margin-left: 7rem;
+  margin-top: -20px;
+  background-color: rgb(111, 13, 186);
+  color: rgb(238, 237, 237);
+  cursor: pointer;
+  font-size: 20px;
+}
+.button-more-imformation:hover{
+    box-shadow: 1px 1px 15px 1px rgb(111, 13, 186);
+    background-color: rgb(231, 231, 231);
+    color: rgb(111, 13, 186);
+    transition: all 0.9s;
 }

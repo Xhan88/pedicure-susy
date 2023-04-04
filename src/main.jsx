@@ -5,6 +5,7 @@ import './index.css'
 import NavBarFirst from './NavBar-1/NavBarFirst'
 import NavBarSecond from './NavBar-2/NavBarSecond'
 import SecctionOne from './section-1/SecctionOne'
+import SectionTwo from './section-2/SectionTwo'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -13,5 +14,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <NavBarSecond />
     <NavImg />
     <SecctionOne />
+    <SectionTwo />
   </React.StrictMode>,
 )

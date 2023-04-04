@@ -1,4 +1,5 @@
 import { Grid } from "@mui/material";
+import { green, red } from "@mui/material/colors";
 import '../section-1/SecctionOne.css'
 
 const SecctionOne = () => {
@@ -7,18 +8,19 @@ const SecctionOne = () => {
    <Grid item xs={13}>
     <div className="grid-container">
       <div>
-      <h4>Lorem ipsum dolor sit amet consectetur</h4>
-      <h1>adipisicing elit. Iusto nisi amet accusamus perspiciatis,</h1>
+      <h4 style={{marginLeft: 80}}>Sobre el cuiado de los pies</h4>
+      <h1 style={{marginLeft: 80}}>La mejor <spam className='spams-color'>atencion y cuidado para los pies</spam></h1>
       <p>
-         adipisicing elit. Iusto nisi amet accusamus perspiciatis,
-          molestiae placeat ullam! Possimus assumenda quibusdam tempora distinctio,
-          eveniet exercitationem nam blanditiis ratione cumque 
-          cum voluptates quas aspernatur fugiat aperiam officiis voluptate repudiandae, 
-          rerum magni eligendi fuga amet.
+        Es acudiendo con un Pedicurista experto en el tratamiento de los pies,
+      Además de limpiar tus pies,
+       un pedicure clínico ayuda a detectar patologías como hongos,
+        micosis, uñas encarnadas, pie de atleta, deformidades, 
+        fascitis plantar y callosidades debido a trastornos de la biomecánica del pie.
            </p>
+           <button className='button-more-imformation'>Conoce mas</button>
            </div>
             <div>
-              <img className="img-seccion" src="/logo-susy.jpeg" alt="" />
+              <img className="img-seccion" src="/pies-verano.jpeg" alt="" />
             </div>
     </div>
     </Grid>
