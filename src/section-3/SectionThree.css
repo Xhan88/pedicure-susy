@@ -1,0 +1,12 @@
+.title-section-three{
+  display: flex;
+  flex-direction: column;  
+  padding-left: 200px;
+  padding-right: 800px;
+}
+.title-section-three p{
+  color: rgb(161, 161, 161);
+}
+.title-section-three h1{
+  color: rgb(102, 101, 101);
+}
