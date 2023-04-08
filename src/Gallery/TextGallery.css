@@ -1,0 +1,13 @@
+.gallery-text h1{
+  color: rgb(102, 101, 101);
+}
+.gallery-text{
+  color: rgb(161, 161, 161);
+}
+.gallery-text{
+  display: flex;
+  flex-direction: column;
+  margin-left: 35rem;
+  margin-right: -30rem;
+  margin-top: -25rem;
+}

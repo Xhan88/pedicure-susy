@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { initFirestoreApp } from './firestore/config'
 import AutoPlaySwipeableViews from './Gallery/AutoPlaySwipeableViews'
 import NavImg from './img-presentation/NavImg'
 import './index.css'
@@ -9,6 +10,7 @@ import SecctionOne from './section-1/SecctionOne'
 import SectionTwo from './section-2/SectionTwo'
 import SectionThree from './section-3/SectionThree'
 
+initFirestoreApp()
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

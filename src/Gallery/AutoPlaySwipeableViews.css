@@ -1,8 +1,14 @@
 .css-djcplw-MuiPaper-root{
   margin-top: -15rem;
   
+  
 }
 .box{
-  margin-left: 60%;
+  margin-left: 15%;
   margin-top: -28rem;
+  width: 60rem;
+  height: 10rem;
+}
+.box {
+  border-radius: 20px;
 }

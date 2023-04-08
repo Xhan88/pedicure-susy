@@ -6,7 +6,12 @@
 }
 .title-section-three p{
   color: rgb(161, 161, 161);
+  line-height: 30px;
 }
 .title-section-three h1{
   color: rgb(102, 101, 101);
 }
+hr {
+  width: 60rem;
+}
+

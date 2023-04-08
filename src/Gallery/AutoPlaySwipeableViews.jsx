@@ -12,29 +12,31 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import { CenterFocusStrong } from '@mui/icons-material';
+import TextGallery from './TextGallery';
+
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images =  [
   {
-    label: 'San Francisco – Oakland Bay Bridge, United States',
+    label: 'Acripie',
     imgPath:
-      'https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60',
+      'https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/pictures-feet%2FWhatsApp%20Image%202023-04-04%20at%2011.48.52%20PM.jpeg?alt=media&token=eedb4b34-85f5-4eb7-8bc2-2cb97adaef62',
   },
   {
-    label: 'Bird',
+    label: 'Diseños personalizados',
     imgPath:
-      'https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60',
+      'https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/pictures-feet%2FWhatsApp%20Image%202023-04-04%20at%2011.48.52%20PM%20(2).jpeg?alt=media&token=dd48d009-4a04-4b7a-b958-ae15d430e40c',
   },
   {
-    label: 'Bali, Indonesia',
+    label: 'Hidratacion',
     imgPath:
-      'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250',
+      'https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/pictures-feet%2FWhatsApp%20Image%202023-04-04%20at%2011.48.52%20PM%20(1).jpeg?alt=media&token=0c28c91e-97fa-422f-ad2d-ab26be0c24af',
   },
   {
-    label: 'Goč, Serbia',
+    label: 'Exfoliacion',
     imgPath:
-      'https://images.unsplash.com/photo-1512341689857-198e7e2f3ca8?auto=format&fit=crop&w=400&h=250&q=60',
+      'https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/pictures-feet%2FWhatsApp%20Image%202023-04-04%20at%2011.48.51%20PM%20(4).jpeg?alt=media&token=c202bbc4-f983-4f60-ae8d-8e4b9b9dd822',
   },
 ];
 
@@ -125,8 +127,13 @@ function SwipeableTextMobileStepper() {
           </Button>
         }
       />
+      <TextGallery />
     </Box>
+    
   );
+  
 }
+
+
 
 export default SwipeableTextMobileStepper;
