@@ -85,9 +85,10 @@ function SwipeableTextMobileStepper() {
               <Box
                 component="img"
                 sx={{
-                  height: 300,
+                  borderRadius: 5,
+                  height: 400,
                   display: 'block',
-                  maxWidth: 400,
+                  maxWidth: 600,
                   overflow: 'hidden',
                   width: '100%',
                 }}
@@ -131,7 +132,7 @@ function SwipeableTextMobileStepper() {
     </Box>
     
   );
-  
+  <hr />
 }
 
 

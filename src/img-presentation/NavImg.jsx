@@ -6,8 +6,8 @@ const NavImg = () => {
       <img className='img-header' src="/header2.jpg" alt="" />
       <div className='presentation-text'></div>
       <div className='center'>
-        <h1>Pedicure Clinico</h1>
-        <p>Atendidos por su propietaria y experta
+        <h1 className='animate__animated animate__bounce'>Pedicure Clinico</h1>
+        <p className='animate__animated animate__bounce'>Atendidos por su propietaria y experta
            en cuidado para los pies <spam className='susy-name'>Susy Sanchez</spam></p>
            <button className='btn-contact'>
             CONTACTAME

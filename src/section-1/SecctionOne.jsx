@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
-import { green, red } from "@mui/material/colors";
+import 'animate.css';
 import '../section-1/SecctionOne.css'
+
 
 const SecctionOne = () => {
   return (
@@ -10,7 +11,7 @@ const SecctionOne = () => {
       <div>
       <h4 style={{marginLeft: 80}}>Sobre el cuiado de los pies</h4>
       <h1 style={{marginLeft: 80}}>La mejor <spam className='spams-color'>atencion y cuidado para los pies</spam></h1>
-      <p>
+      <p className='animate__animated animate__bounce'>
         Es acudiendo con un Pedicurista experto en el tratamiento de los pies,
       Además de limpiar tus pies,
        un pedicure clínico ayuda a detectar patologías como hongos,

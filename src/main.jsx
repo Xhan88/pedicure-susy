@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import FinalSection from './FinalSection/FinalSection'
 import { initFirestoreApp } from './firestore/config'
 import AutoPlaySwipeableViews from './Gallery/AutoPlaySwipeableViews'
 import NavImg from './img-presentation/NavImg'
@@ -10,10 +11,10 @@ import SecctionOne from './section-1/SecctionOne'
 import SectionTwo from './section-2/SectionTwo'
 import SectionThree from './section-3/SectionThree'
 
-initFirestoreApp()
+// initFirestoreApp()
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <>
     <NavBarFirst />
     <NavBarSecond />
     <NavImg />
@@ -21,5 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SectionTwo />
     <SectionThree />
     <AutoPlaySwipeableViews />
-  </React.StrictMode>,
+    <FinalSection />
+  </>,
 )

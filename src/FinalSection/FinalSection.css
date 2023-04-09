@@ -1,0 +1,22 @@
+.final-text{
+  background-image: url(../../public/proyecto-susy012.png);
+  background-color: rgb(189, 189, 189);
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  height: 20rem;
+  padding-top: 8rem;
+  padding-left: 19rem;
+  padding-right: 10rem;
+  margin-Top: 30rem;
+  
+}
+.final-text h3 {
+  display: flex;
+  flex-direction: column;
+  color: rgb(105, 104, 104);
+  font-size: 30px;
+}
+.final-text p {
+  color: rgb(131, 128, 128);
+  font-size: 25px;
+}
