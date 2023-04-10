@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import FinalSection from './FinalSection/FinalSection'
 import { initFirestoreApp } from './firestore/config'
+import Footer from './Footer/Footer'
 import AutoPlaySwipeableViews from './Gallery/AutoPlaySwipeableViews'
 import NavImg from './img-presentation/NavImg'
 import './index.css'
@@ -23,5 +24,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <SectionThree />
     <AutoPlaySwipeableViews />
     <FinalSection />
+    <Footer />
   </>,
 )

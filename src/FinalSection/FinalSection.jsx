@@ -3,8 +3,8 @@ import '../FinalSection/FinalSection.css'
 const FinalSection = () => {
   return (
     <div  className='final-text' >
-      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque nihil rerum eaque aliquam nulla suscipit obcaecati sapiente molestias iste pariatur.</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis provident doloribus nesciunt, ipsa incidunt quibusdam vero distinctio, cupiditate labore, facere maxime a perferendis porro illum aliquam in quis officiis dignissimos.</p>
+      <h3>No lo pienses mas y consiente tus pies con <span>Susy Sanchez</span></h3>
+      <p>y luce esta primavera verano unos pies sanos, y bonitos, te aseguro que notaras la diferiencia y tus pies te lo agradeceran</p>
     </div>
   )
 }

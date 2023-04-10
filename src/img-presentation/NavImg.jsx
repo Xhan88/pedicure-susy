@@ -8,7 +8,7 @@ const NavImg = () => {
       <div className='center'>
         <h1 className='animate__animated animate__bounce'>Pedicure Clinico</h1>
         <p className='animate__animated animate__bounce'>Atendidos por su propietaria y experta
-           en cuidado para los pies <spam className='susy-name'>Susy Sanchez</spam></p>
+           en cuidado para los pies <span className='susy-name'>Susy Sanchez</span></p>
            <button className='btn-contact'>
             CONTACTAME
            </button>
