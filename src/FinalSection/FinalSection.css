@@ -14,11 +14,11 @@
 .final-text h3 {
   display: flex;
   flex-direction: column;
-  color: rgb(148, 146, 146);
+  color: rgb(180, 176, 176);
   font-size: 30px;
 }
 .final-text p {
-  color: rgb(133, 128, 128);
+  color: rgb(190, 185, 185);
   font-size: 25px;
   margin-left: 20px;
 }

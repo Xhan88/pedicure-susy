@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
 import FinalSection from './FinalSection/FinalSection'
 import { initFirestoreApp } from './firestore/config'
 import Footer from './Footer/Footer'
@@ -14,7 +15,10 @@ import SectionThree from './section-3/SectionThree'
 
 // initFirestoreApp()
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
+
+  <BrowserRouter>
   <>
     <NavBarFirst />
     <NavBarSecond />
@@ -26,4 +30,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <FinalSection />
     <Footer />
   </>,
+  </BrowserRouter>
 )
