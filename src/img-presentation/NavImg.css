@@ -3,12 +3,6 @@
   margin-top: 10px;
   margin-left: -8px;
 }
-.container{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
 .presentation-text{
   position: absolute;
   top: 10px;
@@ -28,6 +22,8 @@
   margin-top: -80px;
 }
 .btn-contact{
+  display: flex;
+  margin-left: 17rem;
   padding: 20px;
   border-radius: 20px;
   border: none;

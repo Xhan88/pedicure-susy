@@ -1,3 +1,10 @@
+import FinalSection from '../FinalSection/FinalSection'
+import Footer from '../Footer/Footer'
+import SecctionOne from '../section-1/SecctionOne'
+import SectionTwo from '../section-2/SectionTwo'
+import SectionThree from '../section-3/SectionThree'
+import AutoPlaySwipeableViews from '../Gallery/AutoPlaySwipeableViews'
+
 import '../img-presentation/NavImg.css'
 
 const NavImg = () => {
@@ -13,6 +20,13 @@ const NavImg = () => {
             CONTACTAME
            </button>
         </div>
+                            <SecctionOne />,
+                            <SectionTwo />,
+                            <SectionThree />,
+                            <AutoPlaySwipeableViews />,
+                            <FinalSection />,
+                            <Footer />
+
     </div>
   )
 }
