@@ -11,7 +11,7 @@ const NavBarSecond = () => {
       <ol className='list-navbar'>
 
       <NavLink to='/aboutMe'>
-        <li>Quienes somos</li>
+        <li>Susy Sanchez</li>
       </NavLink>
 
       <NavLink to='studies'>

@@ -20,11 +20,11 @@ const NavImg = () => {
             CONTACTAME
            </button>
         </div>
-                            <SecctionOne />,
-                            <SectionTwo />,
-                            <SectionThree />,
-                            <AutoPlaySwipeableViews />,
-                            <FinalSection />,
+                            <SecctionOne />
+                            <SectionTwo />
+                            <SectionThree />
+                            <AutoPlaySwipeableViews />
+                            <FinalSection />
                             <Footer />
 
     </div>

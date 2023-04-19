@@ -1,0 +1,10 @@
+.aboutMe{
+  display: flex;
+  background-color: rgb(233, 233, 233);
+  font-size: 30px;
+  line-height: 40px;
+  color: rgb(126, 125, 125);
+}
+.susy-pick{
+  height: 50rem;
+}
