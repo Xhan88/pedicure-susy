@@ -1,15 +1,16 @@
-import React from 'react'
-import { useEffect } from 'react'
+import { CircularProgress } from "@mui/material"
+import { useEffect } from "react"
+import '../Loading/Loading.css'
 
 const Loading = () => {
-  useEffect(() => {
-    return(() => {
 
-    })
+  useEffect(() => {
+    return () => {
+    }
   })
   return (
-    <div>
-      ...Loading
+    <div className='loading'>
+      <CircularProgress />
     </div>
   )
 }

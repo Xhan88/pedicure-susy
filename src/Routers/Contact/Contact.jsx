@@ -1,11 +1,26 @@
-import React from 'react'
+import { useEffect, useState } from 'react';
+import Loading from '../../Loading/Loading';
+import '../Contact/Contact.css'
 
 const Contact = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false)
+    },1000)
+  })
+  
   return (
-    <div>
-      <h1>Contact</h1>
-    </div>
-  )
-}
+    <>
+    {loading ? 
+         <Loading /> :
+        <div>
+          <h1>Contact</h1>
+        </div>
+    }
+      </>
+    )   
+  }
 
 export default Contact
