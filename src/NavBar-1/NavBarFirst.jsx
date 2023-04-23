@@ -13,14 +13,14 @@ const NavBarFirst = () => {
      <section className="phone-number-mail">
        <p> <LocalPhoneIcon /> +52 378 142 6360</p>
        
-       <p> <EmailIcon />  correo@correo.com</p>
+       <p> <EmailIcon />  susysanchez851@gmail.com</p>
      </section>
       
       <section className="social-networks">
-      <FacebookIcon style={{ color: grey[700] }}/>
+        
+      <FacebookIcon  style={{ color: grey[700] }} />
       <InstagramIcon style={{ color: grey[700] }}/>
       <WhatsAppIcon style={{ color: grey[700] }}/>
-
       </section>
       
       

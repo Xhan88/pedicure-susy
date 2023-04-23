@@ -1,0 +1,11 @@
+.studies-content{
+  display: flex;
+  margin: 5rem;
+ font-size: 30px;
+ padding-right: 20px;
+ color: rgb(119, 119, 119);
+}
+.studies-content img {
+  height: 30rem;
+  border-radius: 10px;
+}

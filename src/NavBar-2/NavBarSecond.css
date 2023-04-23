@@ -1,3 +1,7 @@
+.second-navbar{
+  position: sticky;
+  top: 10px;
+}
 .img-logo{
   height: 100px;
   margin-top: 20px;
@@ -30,4 +34,10 @@
 }
 li:hover {
   color: rgb(111, 13, 186);
+  text-decoration: underline;
+}
+a:-webkit-any-link {
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
 }

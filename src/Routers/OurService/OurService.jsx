@@ -8,7 +8,7 @@ const OurService = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false)
-    },1000)
+    },500)
   })
 
   return (
@@ -16,8 +16,14 @@ const OurService = () => {
     { loading ?
        <Loading /> :
     <div>
-      
-      <h1>Nuestros servicios</h1>
+      <h3>En Pedicure Clinico Susy Sanchez Les Ofrecemos</h3>
+      <ul>
+        <li>pedicure clinico</li>
+        <li>aplicacion de color </li>
+        <li>Gelish</li>
+        <li>Corte de Uñas </li>
+        <li>Pedicure Clinico Completo</li>
+      </ul>
       
     </div>
     }
