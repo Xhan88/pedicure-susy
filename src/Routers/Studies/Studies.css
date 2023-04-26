@@ -2,10 +2,13 @@
   display: flex;
   margin: 5rem;
  font-size: 30px;
- padding-right: 20px;
+ padding-right: 30px;
  color: rgb(119, 119, 119);
 }
 .studies-content img {
   height: 30rem;
   border-radius: 10px;
+}
+.studies-content p {
+  padding-right: 80px;
 }

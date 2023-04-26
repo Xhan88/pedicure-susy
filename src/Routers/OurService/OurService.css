@@ -1,0 +1,15 @@
+.service-pedicure{
+  background-color: rgb(240, 225, 255);
+  padding: 60px;
+  color: rgb(92, 92, 92);
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  flex-direction:column;
+}
+.service-pedicure img {
+  height: 20rem;
+  width: 20rem;
+  margin-left: 60rem;
+  margin-top: -18rem;
+}

@@ -22,6 +22,10 @@
 .phone-number-mail svg{
   font-size: 15px;
 }
+.email:hover{
+  color: blueviolet;
+  cursor: pointer;
+}
 .css-i4bv87-MuiSvgIcon-root{
   font-size: 15px;
 }
@@ -36,4 +40,20 @@
   cursor: pointer;
   padding-top: 10px;
   font-size: 15px;
+}
+
+.iconFaceboock:hover {
+  color: blue;
+  font-size: 1.5rem;
+  transition: all 0.9s;
+}
+.instaIcon:hover{
+  color: purple;
+  font-size: 1.5rem;
+  transition: all 0.9s;
+}
+.whatsIcon:hover{
+  color: green;
+  font-size: 1.5rem;
+  transition: all 0.9s;
 }

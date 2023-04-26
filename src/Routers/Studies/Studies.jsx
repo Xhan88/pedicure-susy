@@ -18,7 +18,7 @@ const Studies = () => {
         
 
     <div className='studies-content'>
-      <p>Comence mis estudios hace 10 años de manera autodidacta con practicas en amigos y familiares
+      <p><span className='decoration'>"Comence mis estudios hace 10 años</span> de manera autodidacta con practicas en amigos y familiares
         con una fuerte habilidad de investigacion y de propia formacion logre desarrollar conocimentos y habilidades en 
         el cuidado y atencion de los pies.
         Posteriormente tome un curso de Pedicure Clinico en la Academia Araceli en mi natal Tepatitlan de Morelos Jalisco,

@@ -4,7 +4,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import { grey } from '@mui/material/colors';
+import { blue, grey, red } from '@mui/material/colors';
 
 const NavBarFirst = () => {
   return (
@@ -13,19 +13,21 @@ const NavBarFirst = () => {
      <section className="phone-number-mail">
        <p> <LocalPhoneIcon /> +52 378 142 6360</p>
        
-       <p> <EmailIcon />  susysanchez851@gmail.com</p>
+       <p className='email'> <EmailIcon />  susysanchez851@gmail.com</p>
      </section>
       
       <section className="social-networks">
-        
-      <FacebookIcon  style={{ color: grey[700] }} />
-      <InstagramIcon style={{ color: grey[700] }}/>
-      <WhatsAppIcon style={{ color: grey[700] }}/>
-      </section>
-      
-      
-      
-     
+            <a className='facebook' target='_blank' href='https://www.facebook.com/susy.sanchez.7923'  > 
+              <FacebookIcon className='iconFaceboock'  />
+              </a>
+            <a target='_blank' href="https://www.instagram.com/susy.sanchez.7923/">
+              <InstagramIcon className='instaIcon'/>
+              </a>
+            <a target='_blank' href="https://api.whatsapp.com/send?phone=3781151949&text=%22Hola%20Susy%20estoy%20interesad@%20en%20tus%20servicios%20de%20pedicurista%22">
+              <WhatsAppIcon className='whatsIcon'/>
+              </a>
+          
+      </section>    
     </div>
   )
 }
