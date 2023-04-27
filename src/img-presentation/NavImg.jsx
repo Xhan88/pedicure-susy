@@ -6,6 +6,7 @@ import SectionThree from '../section-3/SectionThree'
 import AutoPlaySwipeableViews from '../Gallery/AutoPlaySwipeableViews'
 
 import '../img-presentation/NavImg.css'
+import { NavLink } from 'react-router-dom'
 
 const NavImg = () => {
   return (
@@ -16,9 +17,12 @@ const NavImg = () => {
         <h1 className='animate__animated animate__bounce'>Pedicure Clinico</h1>
         <p className='animate__animated animate__bounce'>Atendidos por su propietaria y experta
            en cuidado para los pies <span className='susy-name'>Susy Sanchez</span></p>
-           <button className='btn-contact'>
+           <NavLink to='/contact'>
+             <button className='btn-contact'>
             CONTACTAME
-           </button>
+            </button>
+           </NavLink>
+           
         </div>
                             <SecctionOne />
                             <SectionTwo />

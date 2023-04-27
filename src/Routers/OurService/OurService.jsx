@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Loading from '../../Loading/Loading';
 import '../OurService/OurService.css'
+import Cards from './cards/Cards';
 
 const OurService = () => {
   const [ loading, setLoading ] = useState(true);
@@ -13,23 +14,27 @@ const OurService = () => {
 
   return (
     <>
-    { loading ?
-       <Loading /> :
-    <div className='service-pedicure'>
-      <h3>En Pedicure Clinico Susy Sanchez Les Ofrecemos</h3>
-      <ul>
-        <li>pedicure Spa</li>
-        <li>Masaje Terapeutico</li>
-        <li>Limar cayocidades</li>
-        <li>Reparar uñas enterradas </li>
-        <li>Tratamiento de la inicomicosis</li>
-        <li>Gelish en uñas</li>
-      </ul>
+        { loading ?
+          <Loading /> :
+        <div className='service-pedicure'>
+          <h3>En Pedicure Clinico Susy Sanchez Les Ofrecemos</h3>
+          <div style={{
+                marginLeft: 110,
+                display: 'flex',
+                flexWrap: 'wrap'
+            }}>
+                  <Cards title='Pedicure Clinico'/>
+                  <Cards title='Masaje Terapeutico'/>
+                  <Cards title='Limar cayocidades'/>
+                  <Cards title='Reparar uñas enterradas'/>
+                  <Cards title='Tratamiento de la onicomicosis'/>
+                  <Cards title='Gelish en uñas'/>
+            
+          </div>
 
-      <img src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/pictures-feet%2Fpies-service.png?alt=media&token=daf68914-4896-48dd-b030-17ac4e7b0390" alt="" />
-      
-    </div>
-    }
+          
+        </div>
+        }
     </>
   )
 }

@@ -1,5 +1,5 @@
 .footer-style{
-  background-color: rgb(207, 205, 205);
+  background-color: rgb(189, 132, 132);
   margin-top: 50px;
   height: 15rem;
   padding-top: 2rem;
@@ -13,7 +13,7 @@
 }
 .footer-style li {
   list-style: none;
-  color: rgb(77, 77, 77);
+  color: rgb(48, 48, 48);
 }
 .footer-style h2{
   color: rgb(51, 50, 50);

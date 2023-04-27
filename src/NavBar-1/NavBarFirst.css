@@ -57,3 +57,8 @@
   font-size: 1.5rem;
   transition: all 0.9s;
 }
+.iconFaceboock, 
+.instaIcon,
+.whatsIcon {
+  color:rgb(29, 29, 29); 
+}

@@ -4,7 +4,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import { blue, grey, red } from '@mui/material/colors';
+
 
 const NavBarFirst = () => {
   return (
@@ -25,8 +25,7 @@ const NavBarFirst = () => {
               </a>
             <a target='_blank' href="https://api.whatsapp.com/send?phone=3781151949&text=%22Hola%20Susy%20estoy%20interesad@%20en%20tus%20servicios%20de%20pedicurista%22">
               <WhatsAppIcon className='whatsIcon'/>
-              </a>
-          
+              </a>         
       </section>    
     </div>
   )

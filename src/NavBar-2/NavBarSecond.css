@@ -34,9 +34,8 @@
   list-style: none;
   cursor: pointer;
   padding: 0;
-  font-size: 20px;
+  font-size: 19px;
   color: rgb(194, 78, 78);
-  font-size: 25px;
 }
 li:active {
   color: rgb(111, 13, 186);
