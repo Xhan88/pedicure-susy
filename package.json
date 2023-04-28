@@ -15,6 +15,7 @@
     "@mui/material": "^5.11.15",
     "@mui/styled-engine-sc": "^5.11.11",
     "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "bootstrap": "^5.3.0-alpha3",
     "firebase": "^9.19.1",
     "react": "^18.2.0",

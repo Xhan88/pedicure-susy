@@ -6,7 +6,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-
 const Footer = () => {
   return (
     <div className='footer-style'>
@@ -14,7 +13,7 @@ const Footer = () => {
       
         <h2>CONTACTANOS</h2>
         <li><LocationOnIcon />  Circuito Presidentes #229. col. Los Adobes Tepatitlan Jalisco</li>
-        <li><EmailIcon />  correo@correo.com</li>
+        <li><EmailIcon />  susysanchez851@gmail.com</li>
         <li><LocalPhoneIcon />  +52 378 115 1949</li>
  
       </ul>

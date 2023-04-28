@@ -12,7 +12,7 @@ export default function Cards(props) {
         <CardMedia
           component="img"
           height="140"
-          image="/logo-susy.jpeg"
+          image="/pies-verano.jpeg"
           alt="green iguana"
         />
         <CardContent>

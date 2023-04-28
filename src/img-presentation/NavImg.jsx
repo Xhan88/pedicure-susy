@@ -7,9 +7,20 @@ import AutoPlaySwipeableViews from '../Gallery/AutoPlaySwipeableViews'
 
 import '../img-presentation/NavImg.css'
 import { NavLink } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import Loading from '../Loading/Loading'
 
 const NavImg = () => {
+  const [loading, setLoading ] = useState(true);
+  useEffect(() => {
+    setTimeout(() =>{
+      setLoading(false)
+    },500)
+  })
   return (
+    <>
+    {loading ? 
+    <Loading /> :
     <div className='container'>
       <img className='img-header' src="/header2.jpg" alt="" />
       <div className='presentation-text'></div>
@@ -32,6 +43,8 @@ const NavImg = () => {
                             <Footer />
 
     </div>
+    }
+    </>
   )
 }
 
