@@ -3,6 +3,9 @@
   top: 5px;
   z-index: 100;
 }
+.second-navbar button{
+  display: none;
+}
 .img-logo{
   height: 100px;
   margin-top: 20px;
@@ -50,3 +53,20 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: none;
 }
+@media (max-width: 720px )   {
+  .second-navbar button{
+    display: flex;
+    margin-bottom: 90px;
+  }
+  .second-navbar {
+    background-color: black;
+    color: white;
+  }
+  .second-navbar  li {
+    flex-direction: none;
+    
+  }
+  .img-logo{
+    display: none;
+  }
+    }
