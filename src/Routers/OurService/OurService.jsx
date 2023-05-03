@@ -19,7 +19,7 @@ const OurService = () => {
         <div className='service-pedicure'>
           <h3>En Pedicure Clinico Susy Sanchez Les Ofrecemos</h3>
           <div style={{
-                marginLeft: 110,
+                marginLeft: 10,
                 display: 'flex',
                 flexWrap: 'wrap'
             }}>

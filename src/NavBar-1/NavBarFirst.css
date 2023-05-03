@@ -7,6 +7,7 @@
   position: relative;
   margin: -15px;
   box-shadow: 1px 1px 30px -10px;
+  height: 60px;
 }
 .phone-number-mail{
   display: flex;

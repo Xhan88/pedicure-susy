@@ -24,5 +24,10 @@
 @media (max-width: 720px )   {
     .footer-style{
       flex-direction: column;
+      height: 30rem;
+      line-height: 50px;
+    }
+    .footer-style a {
+      margin-right: 50px;
     }
 }

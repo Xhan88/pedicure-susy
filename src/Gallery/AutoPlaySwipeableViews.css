@@ -1,7 +1,5 @@
 .css-djcplw-MuiPaper-root{
-  margin-top: -15rem;
-  
-  
+  margin-top: -15rem; 
 }
 .box{
   margin-left: 15%;
@@ -11,4 +9,16 @@
 }
 .box {
   border-radius: 20px;
+}
+@media (max-width:  420px)   {
+    .box{
+      margin-top: 0px;
+      margin-left: 5px;
+      
+    }
+    .css-djcplw-MuiPaper-root{
+      margin-top: 5rem;
+      display: flex;
+      max-width: none;
+    }
 }

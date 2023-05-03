@@ -25,3 +25,25 @@
 .final-text span {
   color: rgb(194, 78, 78);
 }
+@media (max-width:  420px)   {
+    .final-text{
+  margin-Top: 55rem;
+  width: 0px;
+  background-image: none; 
+  padding-left: 15rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+.final-text h3{
+  margin: -90px;
+  margin-left: -200px;
+}
+.final-text p {
+  margin-top: 110px;
+  margin-left: -200px;
+  margin-right: -90px;
+}
+
+
+}

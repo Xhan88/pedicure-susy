@@ -15,4 +15,15 @@
 hr {
   width: 60rem;
 }
+@media (max-width:  420px)   {
+  .title-section-three{
+    padding-top: 5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }  
+  .title-section-three img {
+    display: none;
+    
+  }
+}
 
