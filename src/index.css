@@ -6,7 +6,7 @@
     hr{
       display: none;
     }
-    body {
-      max-width: 414px;
+    html {
+      max-width: 405px;
     }
 }
