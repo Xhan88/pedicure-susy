@@ -10,7 +10,7 @@
 .box {
   border-radius: 20px;
 }
-@media (max-width:  420px)   {
+@media (max-width:  414px)   {
     .box{
       margin-top: 0px;
       margin-left: 5px;

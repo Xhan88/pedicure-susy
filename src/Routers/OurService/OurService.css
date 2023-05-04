@@ -13,7 +13,7 @@
   margin-left: 60rem;
   margin-top: -18rem;
 }
-@media (max-width: 420px )   {
+@media (max-width: 414px )   {
    .class-cards{
      color: red;
    }

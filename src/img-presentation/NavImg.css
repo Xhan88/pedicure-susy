@@ -44,7 +44,7 @@
   color:rgb(252, 153, 153);
   font-size: 40px;
 }
-@media (max-width: 420px )   {
+@media (max-width: 414px )   {
     .img-header{
       width: 422px;
     }

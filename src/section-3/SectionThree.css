@@ -15,7 +15,7 @@
 hr {
   width: 60rem;
 }
-@media (max-width:  420px)   {
+@media (max-width:  414px)   {
   .title-section-three{
     padding-top: 5rem;
     padding-left: 0;

@@ -17,7 +17,7 @@
   height: 8rem;
   margin: -9px;
 }
-@media (max-width:  420px)   {
+@media (max-width:  414px)   {
     .section{
       height: 30rem;
     }
