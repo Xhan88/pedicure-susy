@@ -21,13 +21,14 @@
 .footer-style h3{
   color: rgb(51, 50, 50);
 }
-@media (max-width: 414px )   {
+@media (max-width: 375px )   {
     .footer-style{
       flex-direction: column;
-      height: 30rem;
+      height: 35rem;
+      width: 372px;
       line-height: 50px;
     }
     .footer-style a {
-      margin-right: 50px;
+      margin-right: 20px;
     }
 }

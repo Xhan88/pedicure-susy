@@ -25,7 +25,7 @@
 .final-text span {
   color: rgb(194, 78, 78);
 }
-@media (max-width:  414px)   {
+@media (max-width:  375px)   {
     .final-text{
   margin-Top: 55rem;
   width: 0px;
