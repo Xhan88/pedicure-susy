@@ -15,11 +15,11 @@
 }
 .sectionTwo{
   height: 8rem;
-  margin: -9px;
+  margin: 0px;
 }
-@media (max-width:  440px)   {
+@media (max-width:  730px)   {
     .section{
-      height: 43rem;
-      margin-bottom: 20px;
+      height: 49rem;
+      width: 15.7rem;
     }
 }

@@ -14,10 +14,11 @@
     .box{
       margin-top: -19rem;
       margin-left: 5px;
-      
+      width: 22rem;
+      height: 18rem;
     }
     .css-djcplw-MuiPaper-root{
-      margin-top: 10pxs;
+      margin-top: 10px;
       display: flex;
       
     }
