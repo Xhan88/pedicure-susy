@@ -3,3 +3,8 @@
   margin-top: -20rem;
   height: 25rem;
 }
+@media (max-width: 420px )   {
+  .img-footer{
+    display: none;
+  }
+}

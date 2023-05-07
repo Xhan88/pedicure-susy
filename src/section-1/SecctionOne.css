@@ -38,7 +38,7 @@
     color: rgb(111, 13, 186);
     transition: all 0.9s;
 }
-@media (max-width: 440px )   {
+@media (max-width: 398px )   {
   .grid-container{
     display: flex;
     flex-direction: column;
@@ -50,5 +50,6 @@
   }
   .img-seccion{
     height: 15rem;
+   width: 20rem;
   }
 }
