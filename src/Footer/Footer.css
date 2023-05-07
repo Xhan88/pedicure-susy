@@ -21,7 +21,7 @@
 .footer-style h3{
   color: rgb(51, 50, 50);
 }
-@media (max-width: 440px )   {
+@media (max-width: 405px )   {
     .footer-style{
       flex-direction: column;
       height: 35rem;

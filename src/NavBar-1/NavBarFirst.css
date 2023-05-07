@@ -63,7 +63,7 @@
 .whatsIcon {
   color:rgb(29, 29, 29); 
 }
-@media (max-width:  440px)   {
+@media (max-width:  405px)   {
     .nav-bar-first{
      display: none;
     }

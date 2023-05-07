@@ -38,7 +38,7 @@
     color: rgb(111, 13, 186);
     transition: all 0.9s;
 }
-@media (max-width: 370px )   {
+@media (max-width: 405px )   {
   .grid-container{
     display: flex;
     flex-direction: column;

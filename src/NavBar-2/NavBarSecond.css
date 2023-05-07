@@ -53,7 +53,7 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: none;
 }
-@media (max-width: 440px )   {
+@media (max-width: 405px )   {
   .second-navbar{
     
     margin-top: -10px;
