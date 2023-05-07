@@ -41,12 +41,12 @@
   
 }
 .susy-name{
-  color:rgb(252, 153, 153);
+  color:rgb(116, 41, 41);
   font-size: 40px;
 }
 @media (max-width: 405px )   {
     .img-header{
-      width: 370px;
+      width: 405px;
     }
     .center {
        color: rgb(105, 105, 105);
