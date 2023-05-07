@@ -73,7 +73,7 @@ a:-webkit-any-link {
   }
   .second-navbar  ol {
     flex-direction: column;
-    margin-left: -20px;
+    margin-left: -35px;
   }
   nav {
     display:flex;
