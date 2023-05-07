@@ -25,10 +25,10 @@
 .final-text span {
   color: rgb(194, 78, 78);
 }
-@media (max-width:  440px)   {
+@media (max-width:  370px)   {
     .final-text{
   margin-Top: 55rem;
-  width: 0px;
+  width: -30px;
   background-image: none; 
   padding-left: 15rem;
   display: flex;
