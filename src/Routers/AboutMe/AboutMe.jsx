@@ -21,9 +21,9 @@ const AboutMe = () => {
     <div className='aboutMe'>
         
       <div className='text-about-me'>
-        <span className='decoration'>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, consectetur?</span>
+        <span className='decoration'>Soy una mujer emprendedora, con fuertes habilidades en Pedicure Clinico</span>
         <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iure aliquid facere autem architecto? Animi, accusantium! Sequi consequatur modi repellat dicta minus exercitationem iste numquam harum repellendus ducimus, qui sint accusamus sed velit itaque vel placeat necessitatibus doloremque eum autem ad voluptatum eveniet! Cumque autem doloribus molestiae hic, possimus assumenda.</p>
+        Con una tenacidad inquebrantable amor a mi familia y a Dios, creo en mi misma y en mis capacidades, soy una mujer emprendedora no para competir con otras sino para sacar la mejor vercion de mi.</p>
       </div>
 
       <img className='susy-pick' src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/pictures-feet%2Fsusy-description_preview_rev_1.png?alt=media&token=12514974-1e1f-40a8-806f-839fd9acc71b" alt="" />

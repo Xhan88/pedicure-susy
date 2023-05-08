@@ -34,6 +34,8 @@ const Footer = () => {
               <WhatsAppIcon className='whatsIcon'/>
               </a> 
       </div>
+
+      <section className="firme" >Todos los derechos reservados a Chtistian Martínez Quezada, 2023</section>
     </div>
     
   )

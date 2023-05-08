@@ -2,7 +2,9 @@
   border-radius: 50px;
   margin: 20px;
   margin-top: -80px;
-  
+}
+.grid-container h4, h1{
+  color: rgb(87, 87, 87);
 }
 .grid-container{
   display: flex;
@@ -18,7 +20,7 @@
   font-size: 20px;
 }
 .spams-color{
-  color:rgb(226, 73, 73);
+  color:rgb(223, 100, 100);
 }
 .button-more-imformation{
   padding: 20px;

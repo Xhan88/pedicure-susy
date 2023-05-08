@@ -16,5 +16,14 @@
   line-height: 50px;
 }
 @media (max-width: 405px )   {
-    
+    .aboutMe{
+      display: flex;
+      flex-direction: column;
+    }
+    .susy-pick{
+      height: 30rem;
+    }
+    .text-about-me{
+      margin: 20px;
+    }
 }

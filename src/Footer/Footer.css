@@ -21,6 +21,16 @@
 .footer-style h3{
   color: rgb(51, 50, 50);
 }
+.firme{
+  display: flex;
+  align-items: flex-end;
+  color: rgb(124, 124, 124);
+  font-size: 15px;
+}
+.footer-style a {
+  margin: 20px;
+  padding-top: 20px;
+}
 @media (max-width: 405px )   {
     .footer-style{
       flex-direction: column;

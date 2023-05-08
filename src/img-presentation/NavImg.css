@@ -22,6 +22,9 @@
  top: 20%;
  margin-left: 25%;
 }
+.center h1 {
+  color: rgb(219, 219, 219);
+}
 .btn-contact{
   display: flex;
   margin-left: 17rem;
@@ -41,7 +44,7 @@
   
 }
 .susy-name{
-  color:rgb(116, 41, 41);
+  color:rgb(194, 78, 78);
   font-size: 40px;
 }
 @media (max-width: 405px )   {
@@ -56,7 +59,7 @@
        margin-left: 0%;
     }
     .center h1 {
-      color: rgb(229, 190, 190);
+      color: rgb(201, 199, 199);
     }
     .center p {
       margin-left: 3px;
