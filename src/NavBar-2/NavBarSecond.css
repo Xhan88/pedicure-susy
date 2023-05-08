@@ -1,12 +1,12 @@
-.second-navbar{
+.second-navbar {
   position: sticky;
   top: 5px;
   z-index: 100;
 }
-.second-navbar button{
+.second-navbar button {
   display: none;
 }
-.img-logo{
+.img-logo {
   height: 100px;
   margin-top: 1px;
   margin-left: 100px;
@@ -27,7 +27,7 @@
   margin-right: -10px;
   margin-bottom: -5px;
 }
-.list-navbar{
+.list-navbar {
   display: flex;
   margin-right: 400px;
 }
@@ -58,7 +58,7 @@ a:-webkit-any-link {
     
     margin-top: -10px;
   }
-  .second-navbar button{
+  .second-navbar button {
     display: flex;
     color: rgb(34, 34, 34);
     cursor: pointer;
@@ -82,12 +82,12 @@ a:-webkit-any-link {
     opacity: 0;
     transition: all .9s ease;
   }
-  nav.is-Active{
+  nav.is-Active {
     display: flex;
     height: 50vh;
     opacity: 1;
   }
-  .second-navbar{
+  .second-navbar {
     top: 0px;
   }
     }

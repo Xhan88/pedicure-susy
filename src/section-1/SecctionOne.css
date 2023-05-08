@@ -1,12 +1,12 @@
-.img-seccion{
+.img-seccion {
   border-radius: 50px;
   margin: 20px;
   margin-top: -80px;
 }
-.grid-container h4, h1{
+.grid-container h4, h1 {
   color: rgb(87, 87, 87);
 }
-.grid-container{
+.grid-container {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 10rem;
@@ -14,15 +14,14 @@
 .grid-container p {
   padding-top: -20px;
   margin: 80px;
-  
   line-height: 40px;
   color: rgb(124, 120, 120);
   font-size: 20px;
 }
-.spams-color{
+.spams-color {
   color:rgb(223, 100, 100);
 }
-.button-more-imformation{
+.button-more-imformation {
   padding: 20px;
   border-radius: 20px;
   border: none;
@@ -34,23 +33,23 @@
   cursor: pointer;
   font-size: 20px;
 }
-.button-more-imformation:hover{
+.button-more-imformation:hover {
     box-shadow: 1px 1px 15px 1px rgb(111, 13, 186);
     background-color: rgb(255, 255, 255);
     color: rgb(111, 13, 186);
     transition: all 0.9s;
 }
 @media (max-width: 405px )   {
-  .grid-container{
+  .grid-container {
     display: flex;
     flex-direction: column;
    margin-right: 40px;
    margin-top: -20rem;
   }  
-  .button-more-imformation{
+  .button-more-imformation {
     display: none;
   }
-  .img-seccion{
+  .img-seccion {
     height: 15rem;
    width: 20rem;
   }

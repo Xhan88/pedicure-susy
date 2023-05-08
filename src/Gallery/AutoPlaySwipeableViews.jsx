@@ -1,5 +1,4 @@
 import '../Gallery/AutoPlaySwipeableViews.css'
-
 import * as React from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -11,9 +10,7 @@ import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
-import { CenterFocusStrong } from '@mui/icons-material';
 import TextGallery from './TextGallery';
-
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -66,7 +63,7 @@ function SwipeableTextMobileStepper() {
           display: 'flex',
           alignItems: 'center',
           marginTop: 50,
-          height: 50,
+          height: 30,
           pl: 20,
           bgcolor: 'background.default',
         }}
@@ -86,7 +83,7 @@ function SwipeableTextMobileStepper() {
                 component="img"
                 sx={{
                   borderRadius: 5,
-                  height: 400,
+                  height: 350,
                   display: 'block',
                   maxWidth: 600,
                   overflow: 'hidden',

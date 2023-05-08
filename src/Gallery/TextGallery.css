@@ -1,25 +1,25 @@
-.gallery-text h1{
+.gallery-text h1 {
   color: rgb(102, 101, 101);
   line-height: 32px;
 }
-.gallery-text{
+.gallery-text {
   color: rgb(136, 134, 134);
   font-size: 20px;
   line-height: 30px;
   margin-top: -20px;
 }
-.gallery-text{
+.gallery-text {
   display: flex;
   flex-direction: column;
   margin-left: 35rem;
   margin-right: -30rem;
   margin-top: -30rem;
 }
-.decoration{
+.decoration {
   color: rgb(194, 78, 78);
   font-size: 80px;
 }
-.decoration2{
+.decoration2 {
   color: rgb(194, 78, 78);
   font-size: 25px;
 }

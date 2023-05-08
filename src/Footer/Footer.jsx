@@ -35,7 +35,7 @@ const Footer = () => {
               </a> 
       </div>
 
-      <section className="firme" >Todos los derechos reservados a Chtistian Martínez Quezada, 2023</section>
+      <section className="firme" >Todos los derechos reservados a Chtistian Martínez Quezada.</section>
     </div>
     
   )

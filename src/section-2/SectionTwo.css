@@ -1,10 +1,9 @@
-.section{
+.section {
   background: rgb(59,27,126);
   background: linear-gradient(240deg, rgba(59,27,126,0.9486388305322129) 49%, rgba(255,186,0,0.8954175420168067) 100%);
   color: azure;
   height: 8rem;
-  margin: 0;
-  
+  margin: 0;  
 }
 .sectionTwo p {
   padding: 20px;
@@ -13,12 +12,12 @@
   padding: 60px;
   font-size: 20px;
 }
-.sectionTwo{
+.sectionTwo {
   height: 8rem;
   margin: 0px;
 }
 @media (max-width:  405px)   {
-    .section{
+    .section {
       height: 49rem;
       width: 70%;
     }

@@ -1,4 +1,4 @@
-.final-text{
+.final-text {
   background-image: url(/proyecto-susy012.png);
   background-color: rgb(59,27,126);
   background-size: 20rem;
@@ -26,16 +26,15 @@
   color: rgb(194, 78, 78);
 }
 @media (max-width:  405px)   {
-    .final-text{
+    .final-text {
   margin-Top: 55rem;
   width: -30px;
   background-image: none; 
   padding-left: 15rem;
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column; 
 }
-.final-text h3{
+.final-text h3 {
   margin: -90px;
   margin-left: -200px;
 }
@@ -43,7 +42,5 @@
   margin-top: 110px;
   margin-left: -200px;
   margin-right: -90px;
-}
-
-
+ }
 }

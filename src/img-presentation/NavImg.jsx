@@ -22,7 +22,7 @@ const NavImg = () => {
     {loading ? 
     <Loading /> :
     <div className='container'>
-       <img className='img-header' src="/header2.jpg" alt="" />
+       <img className='img-header' src="https://firebasestorage.googleapis.com/v0/b/pedicure-susy.appspot.com/o/pictures-feet%2Fheader.jpg?alt=media&token=ed9a66be-8713-466c-87ea-9952f20c4d53" alt="" />
         <div className='presentation-text'>
          <div className='center'>
           <h1>Pedicure Clinico</h1>

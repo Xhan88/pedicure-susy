@@ -2,8 +2,13 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
 }
-hr {
+/* hr {
   display: none;
+} */
+@media (max-width:  405px)   {
+  hr {
+    display: none;
+  }
 }
 
 

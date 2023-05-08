@@ -9,28 +9,28 @@
   box-shadow: 1px 1px 30px -10px;
   height: 60px;
 }
-.phone-number-mail{
+.phone-number-mail {
   display: flex;
   align-items: flex-end;
   padding: 10px;
   padding-right: 10px;
   padding-left: 80px;
 }
-.phone-number-mail p {
+.phone-number-mail a {
   margin-left: 20px; 
   padding-left: 30px;
 }
-.phone-number-mail svg{
+.phone-number-mail svg {
   font-size: 15px;
 }
-.email:hover{
+.email:hover {
   color: blueviolet;
   cursor: pointer;
 }
-.css-i4bv87-MuiSvgIcon-root{
+.css-i4bv87-MuiSvgIcon-root {
   font-size: 15px;
 }
-.social-networks{
+.social-networks {
   padding-top: 20px;
   padding-right: 40px;
   display: flex;
@@ -48,12 +48,12 @@
   font-size: 1.5rem;
   transition: all 0.9s;
 }
-.instaIcon:hover{
+.instaIcon:hover {
   color: purple;
   font-size: 1.5rem;
   transition: all 0.9s;
 }
-.whatsIcon:hover{
+.whatsIcon:hover {
   color: green;
   font-size: 1.5rem;
   transition: all 0.9s;

@@ -1,29 +1,28 @@
-.title-section-three{
+.title-section-three {
   display: flex;
   flex-direction: column;  
   padding-left: 200px;
   padding-right: 800px;
 }
-.title-section-three p{
+.title-section-three p {
   color: rgb(116, 116, 116);
   line-height: 30px;
   font-size: 20px;
 }
-.title-section-three h1{
+.title-section-three h1 {
   color: rgb(102, 101, 101);
 }
 hr {
   width: 60rem;
 }
 @media (max-width:  405px)   {
-  .title-section-three{
+  .title-section-three {  
     padding-top: 38rem;
     padding-left: 0;
     padding-right: 0;
   }  
   .title-section-three img {
     display: none;
-    
   }
 }
 

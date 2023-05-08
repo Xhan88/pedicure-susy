@@ -7,7 +7,7 @@
   display: flex;
   flex-direction:column;
 }
-.service-pedicure img {
+/* .service-pedicure img {
   height: 20rem;
   width: 20rem;
   margin-left: 60rem;
@@ -17,4 +17,9 @@
    .class-cards{
      color: red;
    }
-}
+} */
+@media (max-width: 405px )   {
+  .class-cards{
+    color: red;
+  }
+} 
