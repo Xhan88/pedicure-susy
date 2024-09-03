@@ -1,7 +1,7 @@
-.img-header {
-  width: 90rem;
-  margin-top: 10px;
-  margin-left: -8px;
+/* .img-header {
+  width: 100vw;
+  height: 95vh;
+  position: relative;
 }
 .presentation-text h1 {
   margin-top: -80px;
@@ -14,11 +14,11 @@
   color: rgb(201, 215, 215); 
 }
 .center  {
-  font-size: 20px;
- margin-top: -600px;
- margin-bottom: 30rem;
- top: 20%;
- margin-left: 25%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ top: 70%;
+
 }
 .center h1 {
   color: rgb(219, 219, 219);
@@ -68,4 +68,77 @@
     }
 }
 
+ */
 
+
+ .img-header {
+  width: 100vw;
+  height: 95vh;
+  position: relative; /* Asegura que el contenedor padre tenga un contexto de posicionamiento */
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute; /* Permite utilizar las propiedades top y left para centrar */
+  top: 50%; /* Centra verticalmente */
+  left: 50%; /* Centra horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta para centrar exactamente en el medio */
+  text-align: center; /* Asegura que el texto esté centrado */
+}
+
+.presentation-text h1 {
+  margin: 0; /* Remueve márgenes para evitar desplazamientos inesperados */
+  font-size: 80px;
+  line-height: 1.1; /* Ajusta la altura de línea si es necesario */
+  color: rgb(219, 219, 219); /* Añade un color si es necesario */
+}
+
+.presentation-text {
+  font-size: 3rem;
+  color: rgb(201, 215, 215);
+}
+
+.btn-contact {
+  margin-top: 20px; /* Ajusta la posición del botón respecto al texto */
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  color: azure;
+  background-color: rgb(111, 13, 186);
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  box-shadow: 1px 1px 15px 1px rgb(111, 13, 186);
+  background-color: rgb(231, 231, 231);
+  color: rgb(111, 13, 186);
+  transition: all 0.9s;
+}
+
+.susy-name {
+  color: rgb(194, 78, 78);
+  font-size: 90px;
+  text-shadow: 0 1px 5px #000;
+  font-weight: bold;
+  display: block;
+}
+
+@media (max-width: 405px) {
+  .img-header {
+    width: 405px;
+  }
+  .center {
+    color: rgb(105, 105, 105);
+    font-size: 20px;
+    top: 40%; /* Ajusta para mejor visualización en pantallas pequeñas */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .btn-contact {
+    margin-left: 0; /* Alinea el botón al centro */
+    margin-top: 20px;
+  }
+}
