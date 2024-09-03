@@ -7,17 +7,13 @@
   display: none;
 }
 .img-logo {
-  height: 100px;
-  margin-top: 1px;
-  margin-left: 100px;
-  border-radius: 20px;
-  cursor: pointer;
+  height: 8rem;
+  border-radius: 180px;
 }
+
 .second-navbar {
   background-color: rgba(255, 255, 255, .15);
   backdrop-filter: blur(10px);
-  display: flex;
-  justify-content: space-between;
   padding-right: 20px;
   padding: 5px;
   padding-top: 1px;
@@ -29,11 +25,10 @@
 }
 .list-navbar {
   display: flex;
-  margin-right: 400px;
+  align-items: center;
+  justify-content: space-around;
 }
 .list-navbar li {
-  margin-left: 100px;
-  margin-top: 25px;
   list-style: none;
   cursor: pointer;
   padding: 0;
@@ -53,7 +48,7 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: none;
 }
-@media (max-width: 405px )   {
+@media (max-width: 375px )   {
   .second-navbar{
     
     margin-top: -10px;
