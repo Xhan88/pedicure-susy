@@ -1,15 +1,14 @@
 .section {
   background: rgb(59,27,126);
-  background: linear-gradient(240deg, rgba(59,27,126,0.9486388305322129) 49%, rgba(255,186,0,0.8954175420168067) 100%);
+  background: linear-gradient(240deg, rgba(59,27,126,0.9486388305322129) 49%, rgba(172, 3, 113, 0.895) 100%);
   color: azure;
   height: 8rem;
   margin: 0;  
 }
 .sectionTwo p {
-  padding: 20px;
+  padding: 4%;
   color: rgb(231, 226, 226);
   line-height: 50px;
-  padding: 60px;
   font-size: 20px;
 }
 .sectionTwo {

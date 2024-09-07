@@ -8,8 +8,15 @@
 }
 .grid-container {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0 10%;
+  /* flex-direction: row-reverse; */
   margin-top: 10rem;
+}
+@media (max-width: 2500px )  {
+  .grid-container {
+    margin: 10 10%;
+  }
 }
 .grid-container p {
   padding-top: -20px;

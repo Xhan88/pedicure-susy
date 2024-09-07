@@ -4,10 +4,13 @@
   padding-left: 200px;
   padding-right: 800px;
 }
+
+/* style={{marginTop: -450, marginLeft: 400, paddingBottom: 100}}  */
 .title-section-three p {
   color: rgb(116, 116, 116);
   line-height: 30px;
   font-size: 20px;
+  margin-top: 45%;
 }
 .title-section-three h1 {
   color: rgb(102, 101, 101);
@@ -15,6 +18,12 @@
 hr {
   width: 60rem;
 }
+.img-feet-nice{
+  margin-top: -450px;
+  margin-left: 400px;
+  padding-bottom: 100px;
+}
+
 @media (max-width:  405px)   {
   .title-section-three {  
     padding-top: 38rem;
@@ -23,6 +32,15 @@ hr {
   }  
   .title-section-three img {
     display: none;
+  }
+}
+
+@media (min-width: 2300px) {
+  .img-feet-nice {
+       margin-right: 90%;
+       margin-left: 90%;
+       margin-top: px;
+
   }
 }
 
