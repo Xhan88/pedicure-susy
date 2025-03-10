@@ -19,7 +19,7 @@ const NavBarSecond = () => {
       
             <ol className='list-navbar'>
             <NavLink to='/'>
-            <img className="img-logo" src="/logo-susy.jpeg" alt="" />
+            <img className="img-logo" src="/100.png" alt="" />
             </NavLink>
 
 

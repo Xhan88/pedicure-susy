@@ -61,3 +61,10 @@
    width: 20rem;
   }
 }
+
+
+@media (min-width: 2560px) {
+  .grid-container {
+    margin: 10% 20%;
+  }
+}

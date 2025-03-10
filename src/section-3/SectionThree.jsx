@@ -2,6 +2,7 @@ import '../section-3/SectionThree.css';
 
 const SectionThree = () => {
   return (
+    
     <div className='title-section-three'                                                                                                                                                                            >
       <h1>¿Qué incluye el servicio de pedicure Clinico?</h1>
       <p>
