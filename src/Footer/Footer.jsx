@@ -8,35 +8,47 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Footer = () => {
   return (
+<>
     <div className='footer-style'>
-      <ul>
-      
-        <h2>CONTACTANOS</h2>
-        <li><LocationOnIcon />  Circuito Presidentes #229. col. Los Adobes Tepatitlan Jalisco</li>
-        <li><EmailIcon />  susysanchez851@gmail.com</li>
-        <li><LocalPhoneIcon />  +52 378 115 1949</li>
- 
-      </ul>
+        <ul>
+        
+          <h2>CONTACTANOS</h2>
+          <li><LocationOnIcon />  Circuito Presidentes #530. col. Los Adobes Tepatitlan Jalisco</li>
+          <li><EmailIcon />  susysanchez851@gmail.com</li>
+          <li><LocalPhoneIcon />  +52 378 115 1949</li>
+  
+        </ul>
 
-      <div style={{marginLeft: 100}}>
-        <h2>Horario</h2>
-        <h3>De lunes a viernes de 9:00am a 6:00pm 
-          previa cita
-        </h3>
-        <p>Domingos cerrado</p>
-        <a className='facebook' target='_blank' href='https://www.facebook.com/susy.sanchez.7923'  > 
-              <FacebookIcon className='iconFaceboock'  />
-              </a>
-            <a target='_blank' href="https://www.instagram.com/susy.sanchez.7923/">
-              <InstagramIcon className='instaIcon'/>
-              </a>
-            <a target='_blank' href="https://api.whatsapp.com/send?phone=3781151949&text=%22Hola%20Susy%20estoy%20interesad@%20en%20tus%20servicios%20de%20pedicurista%22">
-              <WhatsAppIcon className='whatsIcon'/>
-              </a> 
+        <div style={{marginLeft: 80, lineHeight: 2}}>
+          <h2>Horario</h2>
+          <h3>De lunes a viernes de 9:00am a 6:00pm 
+            previa cita
+          </h3>
+          <p>Domingos cerrado</p>
+          <a className='facebook' target='_blank' href='https://www.facebook.com/susy.sanchez.7923'  > 
+                <FacebookIcon className='iconFaceboock'  />
+                </a>
+              <a target='_blank' href="https://www.instagram.com/susy.sanchez.7923/">
+                <InstagramIcon className='instaIcon'/>
+                </a>
+              <a target='_blank' href="https://api.whatsapp.com/send?phone=3781151949&text=%22Hola%20Susy%20estoy%20interesad@%20en%20tus%20servicios%20de%20pedicurista%22">
+                <WhatsAppIcon className='whatsIcon'/>
+                </a> 
+        </div>
+          <img className='footer-image' src="./100.png" alt="" />
+
       </div>
 
-      <section className="firme" >Todos los derechos reservados a Chtistian Martínez Quezada.</section>
-    </div>
+      <div className='signature'>
+        <a href="https://react-web-site-martinez.netlify.app/" target='_blank'>
+          <img src="./200.png"/>
+        </a>
+            
+            <p>Todos los derechos reservados Codigo Martínez 2025</p>
+          </div>
+</>
+
+  
     
   )
 }

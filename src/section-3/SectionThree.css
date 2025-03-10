@@ -1,3 +1,7 @@
+.sectionThreeContainner {
+ margin: 15% 20%;
+}
+
 .title-section-three {
   display: flex;
   flex-direction: column;  
@@ -10,7 +14,7 @@
   color: rgb(116, 116, 116);
   line-height: 30px;
   font-size: 20px;
-  margin-top: 45%;
+  
 }
 .title-section-three h1 {
   color: rgb(102, 101, 101);

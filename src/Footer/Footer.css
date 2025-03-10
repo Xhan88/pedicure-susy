@@ -9,6 +9,7 @@
 .footer-style {
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding: 20px;
 }
 .footer-style li {
@@ -30,6 +31,31 @@
 .footer-style a {
   margin: 20px;
   padding-top: 20px;
+}
+
+.footer-image{
+  border-radius: 50%;
+  width: 20rem;
+  margin: 2%;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  margin-top: -60px;
+  margin-left: 4%;
+}
+
+.signature img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.signature img:hover {
+  border-radius: 5px;
+  background-color: aqua;
+  background-size: 30px;
+  transition: .5s;
 }
 @media (max-width: 405px )   {
     .footer-style{
