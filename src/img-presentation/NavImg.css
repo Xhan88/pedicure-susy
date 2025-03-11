@@ -83,7 +83,7 @@
   align-items: center;
   justify-content: center;
   position: absolute; /* Permite utilizar las propiedades top y left para centrar */
-  top: 50%; /* Centra verticalmente */
+  top: -17rem; /* Centra verticalmente */
   left: 50%; /* Centra horizontalmente */
   transform: translate(-50%, -50%); /* Ajusta para centrar exactamente en el medio */
   text-align: center; /* Asegura que el texto esté centrado */
