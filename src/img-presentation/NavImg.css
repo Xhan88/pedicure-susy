@@ -142,3 +142,9 @@
     margin-top: 20px;
   }
 }
+
+@media(min-width: 2560px) {
+  .center {
+    top: -30rem;
+  }
+}

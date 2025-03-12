@@ -75,7 +75,7 @@ const NavImg = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 500);
+    }, 400);
   }, []);
 
   useEffect(() => {
