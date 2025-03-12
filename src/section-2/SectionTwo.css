@@ -15,7 +15,7 @@
   height: 8rem;
   margin: 0px;
 }
-@media (max-width:  405px)   {
+@media (max-width:  768px)   {
     .section {
       height: 49rem;
       width: 70%;

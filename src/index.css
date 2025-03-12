@@ -5,7 +5,7 @@
 /* hr {
   display: none;
 } */
-@media (max-width:  405px)   {
+@media (max-width:  768px)   {
   hr {
     display: none;
   }

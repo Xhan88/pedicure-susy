@@ -126,16 +126,19 @@
   display: block;
 }
 
-@media (max-width: 405px) {
+@media (max-width: 768px) {
   .img-header {
-    width: 405px;
+   height: 40rem;
+    
   }
   .center {
-    color: rgb(105, 105, 105);
-    font-size: 20px;
-    top: 40%; /* Ajusta para mejor visualización en pantallas pequeñas */
-    left: 50%;
-    transform: translate(-50%, -50%);
+   margin-top: -20px; 
+  }
+  .center h1{
+    font-size: 50px;
+  }
+  .center p {
+    font-size: 30px;
   }
   .btn-contact {
     margin-left: 0; /* Alinea el botón al centro */

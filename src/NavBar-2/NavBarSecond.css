@@ -41,7 +41,7 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: none;
 }
-@media (max-width: 375px )   {
+@media (max-width: 768px)   {
   .second-navbar{
     
     margin-top: -10px;
@@ -55,14 +55,17 @@ a:-webkit-any-link {
   .second-navbar {
     background-color: rgb(253, 150, 150);
     color: white;
-    margin-left: 0px;
-    width: 405px;
     
   }
   .second-navbar  ol {
     flex-direction: column;
-    margin-left: -35px;
+   
   }
+
+  .is-Active, .init-nav {
+    justify-content: center;
+  }
+
   nav {
     display:flex;
     height: 0vh;

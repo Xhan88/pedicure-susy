@@ -11,6 +11,7 @@
 .gallery-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   margin-left: 35rem;
   margin-right: -30rem;
   margin-top: -30rem;
@@ -23,7 +24,7 @@
   color: rgb(194, 78, 78);
   font-size: 25px;
 }
-@media (max-width:  405px)   {
+@media (max-width:  768px)   {
     .gallery-text {
       margin-top: 50px;
       margin-left: 10px;
