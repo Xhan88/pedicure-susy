@@ -19,7 +19,7 @@ const Footer = () => {
   
         </ul>
 
-        <div style={{marginLeft: 80, lineHeight: 2}}>
+        <div>
           <h2>Horario</h2>
           <h3>De lunes a viernes de 9:00am a 6:00pm 
             previa cita

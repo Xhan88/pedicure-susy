@@ -3,7 +3,8 @@
   background: linear-gradient(240deg, rgba(59,27,126,0.9486388305322129) 49%, rgba(172, 3, 113, 0.895) 100%);
   color: azure;
   height: 8rem;
-  margin: 0;  
+   display: flex;
+   align-items: center;
 }
 .sectionTwo p {
   padding: 4%;
@@ -18,7 +19,7 @@
 @media (max-width:  768px)   {
     .section {
       height: 49rem;
-      width: 70%;
+     
     }
 }
 

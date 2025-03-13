@@ -57,13 +57,17 @@
   background-size: 30px;
   transition: .5s;
 }
-@media (max-width: 405px )   {
+@media (max-width: 768px )   {
     .footer-style{
       flex-direction: column;
       height: 35rem;
-      width: 360px;
       padding-left: 0px;
       line-height: 50px;
+    }
+
+    .footer-image {
+      
+      width: 120px;
     }
     .footer-style a {
       margin-right: 20px;

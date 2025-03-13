@@ -1,5 +1,5 @@
 .sectionThreeContainner {
- margin: 15% 20%;
+ margin-top: 15%;
 }
 
 .title-section-three {
@@ -30,22 +30,19 @@ hr {
 
 @media (max-width:  768px)   {
   .title-section-three {  
-    padding-top: 38rem;
+    padding-top: 40rem;
     padding-left: 0;
     padding-right: 0;
   }  
   .title-section-three img {
     display: none;
   }
+
+ 
 }
 
 @media (min-width: 2560px) {
-  .img-feet-nice {
-       margin-right: 90%;
-       margin-left: 90%;
-       margin-top: px;
-
-  }
+ 
 
   .title-section-three{
     margin: 20%;

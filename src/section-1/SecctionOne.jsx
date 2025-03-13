@@ -8,8 +8,8 @@ const SecctionOne = () => {
    <Grid item xs={13}>
         <div className="grid-container">
           <div data-aos="fade-down">
-          <h4 style={{marginLeft: 80}}>Sobre el cuiado de los pies</h4>
-          <h1 style={{marginLeft: 80}}>La mejor <span className='spams-color'>atencion y cuidado para los pies</span></h1>
+          <h4>Sobre el cuiado de los pies</h4>
+          <h1>La mejor <span className='spams-color'>atencion y cuidado para los pies</span></h1>
           <p >
               Es acudiendo con un Pedicurista experto en el tratamiento de los pies,
               Además de limpiar tus pies,
