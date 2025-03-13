@@ -26,9 +26,8 @@
 }
 @media (max-width:  768px)   {
     .gallery-text {
+      margin: 0;
       margin-top: 50px;
-      margin-left: 10px;
-      margin-right: 2rem;
 
     }
 }

@@ -19,7 +19,7 @@ const Footer = () => {
   
         </ul>
 
-        <div>
+        <div className='schedule'>
           <h2>Horario</h2>
           <h3>De lunes a viernes de 9:00am a 6:00pm 
             previa cita
@@ -35,7 +35,10 @@ const Footer = () => {
                 <WhatsAppIcon className='whatsIcon'/>
                 </a> 
         </div>
-          <img className='footer-image' src="./100.png" alt="" />
+        <div>
+          <img className='footer-image' src="./100.png" alt="" /> 
+        </div>
+         
 
       </div>
 

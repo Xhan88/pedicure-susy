@@ -55,7 +55,7 @@ function SwipeableTextMobileStepper() {
   };
 
   return (
-    <Box className='box' sx={{ maxWidth: 400, flexGrow: 3 }}>
+    <Box className='box' sx={{ maxWidth: 300, flexGrow: 3 }}>
       <Paper
         square
         elevation={0}
@@ -64,7 +64,7 @@ function SwipeableTextMobileStepper() {
           alignItems: 'center',
           marginTop: 50,
           height: 30,
-          pl: 20,
+          pl: 10,
           bgcolor: 'background.default',
         }}
       >
@@ -87,7 +87,7 @@ function SwipeableTextMobileStepper() {
                   display: 'block',
                   maxWidth: 600,
                   overflow: 'hidden',
-                  width: '100%',
+                  width: '90%',
                 }}
                 src={step.imgPath}
                 alt={step.label}
