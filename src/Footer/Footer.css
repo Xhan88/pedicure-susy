@@ -12,6 +12,13 @@
   align-items: center;
   padding: 20px;
 }
+
+.footer-logo {
+  display: flex;
+  align-items: end;
+  margin-left: 8rem;
+}
+
 .footer-style li {
   list-style: none;
   color: rgb(48, 48, 48);
@@ -69,6 +76,10 @@
       
     }
 
+    .footer-logo {
+      justify-content: center;
+    }
+
     .footer-image {
       width: 1rem;
       width: 220px;
@@ -79,5 +90,9 @@
     }
     .signature {
       margin-top: 2rem;
+    }
+
+    .signature {
+      display: none;
     }
 }

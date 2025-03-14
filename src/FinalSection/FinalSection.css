@@ -1,5 +1,5 @@
 .final-text {
-  background-image: url(/proyecto-susy012.png);
+  
   background-color: rgb(59,27,126);
   background-size: 20rem;
   background-repeat: no-repeat;
@@ -27,8 +27,8 @@
 }
 @media (max-width:  768px)   {
     .final-text {
-  margin-Top: 45rem;
-  width: -30px;
+  margin-Top: 55rem;
+  width: -0px;
   background-image: none; 
   padding-left: 15rem;
   display: flex;

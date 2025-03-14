@@ -35,7 +35,7 @@ const Footer = () => {
                 <WhatsAppIcon className='whatsIcon'/>
                 </a> 
         </div>
-        <div>
+        <div className='footer-logo'>
           <img className='footer-image' src="./100.png" alt="" /> 
         </div>
          
