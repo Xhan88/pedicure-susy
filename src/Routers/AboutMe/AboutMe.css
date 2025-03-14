@@ -15,7 +15,7 @@
 .decoration{
   line-height: 50px;
 }
-@media (max-width: 405px )   {
+@media (max-width: 768px )    {
     .aboutMe{
       display: flex;
       flex-direction: column;

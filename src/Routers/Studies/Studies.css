@@ -12,7 +12,7 @@
 .studies-content p {
   padding-right: 80px;
 }
-@media (max-width:  405px)   {
+@media (max-width: 768px )   {
     .studies-content {
       display: flex;
       flex-direction: column;

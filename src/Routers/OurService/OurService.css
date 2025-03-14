@@ -7,18 +7,8 @@
   display: flex;
   flex-direction:column;
 }
-/* .service-pedicure img {
-  height: 20rem;
-  width: 20rem;
-  margin-left: 60rem;
-  margin-top: -18rem;
-}
-@media (max-width: 405px )   {
-   .class-cards{
-     color: red;
-   }
-} */
-@media (max-width: 405px )   {
+
+@media (max-width: 768px )   {
   .class-cards{
     color: red;
   }
